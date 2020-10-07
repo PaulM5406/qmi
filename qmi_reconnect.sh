@@ -11,5 +11,5 @@ while true; do
 		sudo usr/src/qmi_connect.sh
 	fi
 
-	sleep 1
+	sleep 2
 done
