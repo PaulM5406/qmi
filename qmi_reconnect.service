@@ -3,7 +3,7 @@ Description=QMI Auto Connection
 After=network.target
 
 [Service]
-ExecStart=/bin/sh /usr/src/qmi_reconnect.sh
+ExecStart=/bin/bash /usr/src/qmi_reconnect.sh
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
