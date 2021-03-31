@@ -1,6 +1,6 @@
 #!/bin/bash
 
-midkr /usr/src/qmi_connect
+mkdir /usr/src/qmi_connect
 
 echo -n "Please enter the name of SIM card's APN (ex: free, orange, ...): "
 read apn
