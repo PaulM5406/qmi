@@ -8,7 +8,7 @@ while true; do
 		echo "Connection up, reconnect not required..."
 	else
 		echo "Connection down, reconnecting..."
-		sudo /usr/src/qmi_connect/qmi_connect.sh
+		sudo /bin/bash /usr/src/qmi_connect/qmi_connect.sh
 	fi
 
 	sleep 2
